@@ -1,0 +1,31 @@
+{
+  "name": "echs",
+  "version": "1.0.0",
+  "description": "Simple Node.js 'echo' server to inspect http requests.",
+  "author": "Octavian Theodor NITA (https://github.com/octavian-nita/)",
+  "license": "ISC",
+  "keywords": [
+    "echo",
+    "server",
+    "inspect",
+    "http",
+    "request"
+  ],
+  "homepage": "https://github.com/octavian-nita/echs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octavian-nita/echs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/octavian-nita/echs/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.12.1"
+  },
+  "main": "echs.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
+    "start": "node echs.js"
+  }
+}
