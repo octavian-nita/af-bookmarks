@@ -4,7 +4,7 @@ Simple Node.js "echo" server to inspect http requests ( as well as play with the
 
 ### See also
 
-* [**ech** - Echo Entire HTTP Requests in JSON](https://www.npmjs.com/package/ech); ***main** inspiration*
+* [**ech** - Echo Entire HTTP Requests in JSON](https://www.npmjs.com/package/ech); ***main** inspiration* and where *kudos* goes to
 * [**reflect.py** - A simple echo server to inspect http web requests](https://gist.github.com/huyng/814831)
 * [**echo.py** - Simple echo server written in pure Python](https://gist.github.com/solusipse/6419144)
 
