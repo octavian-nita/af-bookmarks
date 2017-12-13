@@ -1,8 +1,10 @@
 'use strict';
 
 const
+  ps = require('process'),
+  path = require('path'),
   http = require('http'),
-  port = 8910;
+  port = ps.env.ECHS_PORT || 3987;
 
 http
   .createServer((req, res) => {
@@ -10,4 +12,7 @@ http
     res.end('Hello world!');
 
   })
-  .listen(port, () => console.log('Server listening on: http://localhost:%s', port));
+  .listen(
+    port,
+    () => console.log('%s server listening on port %s...', path.basename(__filename, path.extname(__filename)), port)
+  );
