@@ -20,7 +20,12 @@
     ],
     "indent": [
       "error",
-      2
+      2,
+      {
+        "CallExpression": {
+          "arguments": "first"
+        }
+      }
     ],
     "max-len": [
       "error",
