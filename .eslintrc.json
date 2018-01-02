@@ -1,5 +1,6 @@
 {
-  "extends": "eslint:recommended",
+  "extends": ["eslint:recommended", "airbnb", "prettier"],
+  "plugins": ["prettier"],
   "env": {
     "es6": true,
     "node": true,
@@ -9,15 +10,10 @@
     "sourceType": "module"
   },
   "rules": {
-    "semi": [
-      "error",
-      "always"
-    ],
+    "semi": ["error", "always"],
     "no-extra-semi": "off",
-    "quotes": [
-      "error",
-      "single"
-    ],
+    "no-console": "off",
+    "quotes": ["error", "single"],
     "indent": [
       "error",
       2,
@@ -27,11 +23,8 @@
         }
       }
     ],
-    "max-len": [
-      "error",
-      120,
-      2
-    ],
-    "no-console": "off"
+    "max-len": ["error", 120, 2],
+    "prettier/prettier": ["error"],
+    "comma-dangle": ["error", { "functions": "ignore" }]
   }
 }

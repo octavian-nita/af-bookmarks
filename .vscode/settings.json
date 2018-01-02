@@ -1,0 +1,21 @@
+{
+  "editor.cursorStyle": "line-thin",
+  "editor.fontFamily": "Inconsolata",
+  "editor.fontSize": 15,
+  "editor.letterSpacing": 0.5,
+  "editor.rulers": [
+    120
+  ],
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 120,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "html.format.endWithNewline": true,
+  "html.format.maxPreserveNewLines": 1,
+  "workbench.colorTheme": "Quiet Light",
+  "sublimeTextKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnSave": true
+}
