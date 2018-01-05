@@ -28,8 +28,8 @@ tmp/
 *.cache
 
 # Folder view configuration files
-**/.DS_Store
-**/Desktop.ini
+.DS_Store
+Desktop.ini
 
 # Thumbnail cache files
 ._*
