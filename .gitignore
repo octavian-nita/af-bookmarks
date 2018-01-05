@@ -23,6 +23,7 @@ bin/
 target/
 tmp/
 *.pyc
+*.pyo
 
 *.cache
 
