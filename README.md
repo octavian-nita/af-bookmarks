@@ -1,4 +1,4 @@
-# [af-bookmarks: AppFold Bookmarks](bookmarks.appfold.net)
+# [af-bookmarks: AppFold Bookmarks](https://bookmarks.appfold.net)
 
 ## Next Milestone
 

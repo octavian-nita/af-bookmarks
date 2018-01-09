@@ -4,7 +4,7 @@ const path = require('path');
 const http = require('http');
 const util = require('util');
 
-const port = ps.env.ECHS_PORT || 3987;
+const port = ps.env.SERVER_PORT || 3987;
 const srvHead = util.format(
   '%s/%s (%s)',
   ps.title.charAt(0).toUpperCase() + ps.title.slice(1),
