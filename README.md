@@ -1,4 +1,6 @@
-# echs
+# [af-bookmarks: AppFold Bookmarks](bookmarks.appfold.net)
+
+## Next Milestone
 
 Simple Node.js "echo" server to inspect http requests ( as well as play with the latest Node and ES201x features ;) ).
 
@@ -18,7 +20,7 @@ Simple Node.js "echo" server to inspect http requests ( as well as play with the
 
 ---
 
-### Setting Up a Development Environment
+## Setting Up a Development Environment
 
 * [Configure Prettier and ESLint in Visual Studio Code](https://www.39digits.com/configure-prettier-and-eslint-in-visual-studio-code/)
 * [Create environment specific configuration for a Node app](https://www.39digits.com/create-environment-specific-config-for-a-node-app/)

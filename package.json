@@ -1,7 +1,7 @@
 {
-  "name": "echs",
+  "name": "af-bookmarks",
   "version": "1.0.0",
-  "description": "Simple Node.js 'echo' server to inspect http requests.",
+  "description": "[af-bookmarks: AppFold Bookmarks](bookmarks.appfold.net)",
   "author": "Octavian Theodor NITA (https://github.com/octavian-nita/)",
   "license": "ISC",
   "keywords": [
@@ -11,13 +11,13 @@
     "http",
     "request"
   ],
-  "homepage": "https://github.com/octavian-nita/echs",
+  "homepage": "https://github.com/octavian-nita/af-bookmarks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/octavian-nita/echs.git"
+    "url": "https://github.com/octavian-nita/af-bookmarks.git"
   },
   "bugs": {
-    "url": "https://github.com/octavian-nita/echs/issues"
+    "url": "https://github.com/octavian-nita/af-bookmarks/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -30,10 +30,10 @@
     "eslint-plugin-react": "^7.5.1",
     "prettier": "^1.9.2"
   },
-  "main": "echs.js",
+  "main": "index.js",
   "scripts": {
-    "fmt": "prettier --write '**/*.{js,jsx,json}'",
+    "fmt": "prettier --write '**/*.{js,json}'",
     "pretest": "eslint --ignore-path .gitignore .",
-    "start": "node echs.js"
+    "start": "node index.js"
   }
 }
