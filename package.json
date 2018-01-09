@@ -1,16 +1,10 @@
 {
   "name": "af-bookmarks",
   "version": "1.0.0",
-  "description": "[af-bookmarks: AppFold Bookmarks](bookmarks.appfold.net)",
+  "description": "[af-bookmarks: AppFold Bookmarks](https://bookmarks.appfold.net)",
   "author": "Octavian Theodor NITA (https://github.com/octavian-nita/)",
   "license": "ISC",
-  "keywords": [
-    "echo",
-    "server",
-    "inspect",
-    "http",
-    "request"
-  ],
+  "keywords": ["echo", "server", "inspect", "http", "request"],
   "homepage": "https://github.com/octavian-nita/af-bookmarks",
   "repository": {
     "type": "git",
