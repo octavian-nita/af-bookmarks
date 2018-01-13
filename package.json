@@ -41,6 +41,6 @@
   "scripts": {
     "fmt": "prettier --write '**/*.{js,json}'",
     "pretest": "eslint --ignore-path .gitignore .",
-    "start": "node index.js"
+    "start": "nohup node index.js >> af-bookmarks.log 2>&1 &"
   }
 }
